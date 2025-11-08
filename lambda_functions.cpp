@@ -38,7 +38,7 @@ int main() {
 
     nums = {1, 2, 3, 4, 5};
 
-    //Highly redunant use of lambda
+    //Highly redundant use of lambda
     [& nums](const int x) { nums[x] = 300; } (2);
 
     for (const int num: nums) {

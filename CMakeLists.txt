@@ -5,7 +5,6 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(CPP_Learning
         namespaces.cpp
-        "structured binding.cpp"
         templates.cpp
         first_positive.cpp
         lambda_functions.cpp
